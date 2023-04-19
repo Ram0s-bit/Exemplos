@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- Metadados -->
+
+<head>
+    <!-- Exemplo 1: Informação Metadados -->
+    <meta charset="UTF-8">
+    <!-- Exemplo 2: Titulo -->
+    <title>Exemplos</title>
+</head>
+
+<body>
+    <!-- Separação de conteudo -->
+    <!-- Exemplo 1 (Article): Agurpando um conteudo sobre Hajime no Ippo -->
+    <article>
+        <!-- Exemplo 2 (H1): Usado como título geral do artigo -->
+        <h1>Hajime no Ippo</h1>
+
+        <!-- Texto -->
+        <!-- Exemplo 1 (p): parágrafo -->
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus odio hic ducimus error explicabo, optio quos facilis sit nostrum corporis et, sapiente assumenda repellat alias culpa? Fugit temporibus accusamus sed!</p>
+         <!-- Exemplo 2(bloquote): Usado para citação de um bloco de texto -->   
+        <blockquote>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+        </blockquote>
+
+        <!-- Imagem -->
+        <!-- Exemplo 1 (img): Add img local -->
+        <img src="img.png" alt="Descrição da img">
+        <!-- Exemplo 2(img): add img externas -->
+        <img src="url" alt="Descrição da im">
+
+        <!-- formulario -->
+        <!-- exemplo 1: Formulario para cadastrar nome e email -->
+        <form action="/exemplos.html" method="post">
+            <div>
+                <label for="name">Nome: </label>
+                <input type="text" id="name" />
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" />
+            </div>
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
+        <!-- exemplo 2: Formulario para escolher melhor anime -->
+        <form action="/exemplos.html">
+            <label for="anime">Escolha o melhor anime</label>
+            <select name="animes" id="anime">
+                <option value="naruto">Naruto</option>
+                <option value="dragon ball">Dragon Ball</option>
+                <option value="hajime">Hajime no Ippo</option>
+                <option value="samurai">Samurai X</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+
+    </article>
+</body>
+
+</html>
